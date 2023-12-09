@@ -1,8 +1,10 @@
 const express = require("express")
 const app = express()
+const userRoute = require("./src/routes/user.route")
 
-app.get("/" , (req,res)=> {
-    res.send("hello world!")
-})
+app.use(express.json())
+
+app.use("/",userRoute)
+
 
 app.listen(8888)
