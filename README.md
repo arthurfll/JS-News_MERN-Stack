@@ -3,7 +3,7 @@ http://localhost:8888/
 {
     "nome" : "Arthur",
     "sobrenome" : "Fontenelle",
-    "email" : "arthyrfontenelle2017@gmail.com",
+    "email" : "arthyrfontenelle@gmail.com",
     "usuario" : "arthurfll",
     "senha" : "12345678"
 }
